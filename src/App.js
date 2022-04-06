@@ -1,15 +1,14 @@
-
-import s from './styles.module.css';
-import IconBird from '../assets/images/icon-bird.jpg'
+import s from "./styles.module.css";
+import logo from "./images/logo-kiosk.svg";
 
 const App = () => {
-    return (
-        <div className={s.reactheader}>
-          <div>
-            <img src={IconBird}/>
-            <p className={s.p}>React app</p>
-          </div>
-        </div>
-    );
-  };
-  export default App;
+  return (
+    <div className={s.reactheader}>
+      <div className={s.identity}>
+        <img className={s.logo} src={logo} />
+        <p className={s.p}>React app</p>
+      </div>
+     </div>
+  );
+};
+export default App;

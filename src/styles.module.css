@@ -1,5 +1,14 @@
+.reactheader {
+    background-color: #fff;
+    height:70px;
+}
+.identity{
+    display: flex;
+}
+.logo{
+    width: 100px;
+}
 .p {
-    color: red;
-    background-color: blue;
-    font-family: 'Times New Roman', Times, serif;
+    color:#000;
+    margin-top:20px;
 }
