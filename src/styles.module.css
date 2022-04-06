@@ -1,5 +1,5 @@
-p {
-    color: red !important;
+.p {
+    color: red;
     background-color: blue;
     font-family: 'Times New Roman', Times, serif;
 }

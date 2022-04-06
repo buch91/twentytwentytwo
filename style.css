@@ -146,3 +146,18 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 	padding-left: var(--wp--custom--spacing--outer);
 }
 
+
+/*
+ * React hader styling
+ */
+/* #my-react-app{
+	 width:100%;
+ }
+ .reactheader {
+	background-color:#fff;
+	width:100%;
+}
+
+.reactheader p {
+	color:red;
+} */

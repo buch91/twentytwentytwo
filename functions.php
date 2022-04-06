@@ -165,3 +165,14 @@ function my_react_app()
 		true
 	);
 }
+
+add_action( 'wp_loaded', function() {
+    wp_register_style(
+        'my_stylesheet',
+        get_stylesheet_directory_uri() . '/build/index.css'
+    );
+});
+
+add_action( 'wp_enqueue_scripts', function() {
+    wp_enqueue_style( 'my_stylesheet' );
+});

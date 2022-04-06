@@ -1,12 +1,14 @@
 
-import './styles.css';
+import s from './styles.module.css';
 import IconBird from '../assets/images/icon-bird.jpg'
 
 const App = () => {
     return (
-        <div className='reactheader'>
-          <img src={IconBird}/>
-          <p>React app</p>
+        <div className={s.reactheader}>
+          <div>
+            <img src={IconBird}/>
+            <p className={s.p}>React app</p>
+          </div>
         </div>
     );
   };
