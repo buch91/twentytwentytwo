@@ -1,0 +1,1 @@
+{"version":3,"file":"index.css","mappings":";;;AAAA;IACI,YAAY;IACZ,sBAAsB;IACtB,4CAA4C;AAChD,C","sources":["webpack://twentytwentytwo/./src/styles.css"],"sourcesContent":["p {\r\n    color: black;\r\n    background-color: blue;\r\n    font-family: 'Times New Roman', Times, serif;\r\n}"],"names":[],"sourceRoot":""}
